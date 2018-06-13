@@ -1,0 +1,2 @@
+app register --name entity-bulk-sink --type sink --uri file:entity-event-merge-sink-0.0.1-SNAPSHOT-exec.jar
+app register --name file --type source --uri file:file-source-rabbit-1.2.1.BUILD-SNAPSHOT.jar

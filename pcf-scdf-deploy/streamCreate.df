@@ -1,0 +1,1 @@
+stream create --name bulk --definition "file --directory=${INPUTDIR_BULK} --mode=lines | entity-bulk-sink --send-batch-size=60000 --send-timeout=20000 --entitycache.locator-host=localhost --entitycache.locator-port=10334"
