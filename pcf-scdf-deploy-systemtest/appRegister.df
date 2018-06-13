@@ -1,0 +1,2 @@
+app register --name entity-bulk-sink --type sink --uri file:${ROOT_FOLDER_FOR_LIBS}/entity-event-merge-sink-0.0.1-SNAPSHOT-exec.jar
+app register --name file --type source --uri file:${ROOT_FOLDER_FOR_LIBS}/file-source-rabbit-1.2.1.BUILD-SNAPSHOT.jar
